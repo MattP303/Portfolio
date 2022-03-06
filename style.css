@@ -3,14 +3,16 @@ body{
 }
 header {
     font-family: 'Roboto', sans-serif;
-    background-color: #2F4550;
+    background-color: #586F7C;
     color: #F4F4F9;
     padding: 5px;
+    border-radius: 5px;
 }
 
 header h1 {
     display: inline-block;
     font-size: 40px;
+    margin-left: 15px;
 }
 
 header nav {
@@ -23,6 +25,7 @@ header nav {
 
 header nav ul {
     list-style-type: none;
+ margin-right: 50px;
 }
 
 header nav ul li{
@@ -53,6 +56,7 @@ h2 {
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
+    font-size: larger;
 }
 
 img {
@@ -69,6 +73,7 @@ margin: 15px;
 
 .projectGallery:hover {
     border: 1px solid #2F4550;
+    transform: scale(1.1);
 }
 
 .projectGallery img {
@@ -109,4 +114,27 @@ main ul {
 main ul li {
    margin: 40px;
    text-decoration: underline;
+}
+
+.resumeSection {
+    margin-bottom: 50px;
+}
+
+.textContainer{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.areaDivider{
+    width: 100%;
+    background-color: #B8DBD9 ;
+    height: 3vh;
+    margin: auto;
+    margin-top: 20px;
+border-radius: 15px;
+}
+
+.showcase{
+    width: 800px;
+
 }
