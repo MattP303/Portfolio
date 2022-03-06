@@ -2,7 +2,7 @@ body{
     background-color: #F4F4F9;
 }
 header {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #2F4550;
     color: #F4F4F9;
     padding: 5px;
@@ -15,7 +15,7 @@ header h1 {
 
 header nav {
     float: right;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 15px;
     margin-right: 20px;
     font-size: 20px;
@@ -30,7 +30,83 @@ header nav ul li{
     margin-left: 50px;
 }
 
-a {
+header a{
     color: #F4F4F9;
     text-decoration: none;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: overline;
+    display: block;
+    color: #2F4550;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    clear: both;
+    float: none;
+    width: 20%;
+    height: 100%;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectGallery {
+border: 1px solid #F4F4F9;
+width: 300px;
+margin: 15px;
+}
+
+.projectGallery:hover {
+    border: 1px solid #2F4550;
+}
+
+.projectGallery img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galleryDescription {
+    padding: 15px;
+    text-align: center;
+    color: #2F4550;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.galleryRow {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+main a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2F4550;
+    text-decoration: none;
+    display: block;
+    font-size:25px;
+}
+
+main ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main ul li {
+   margin: 40px;
+   text-decoration: underline;
 }
