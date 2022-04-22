@@ -53,6 +53,20 @@ h2 {
     height: 100%;
 }
 
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    color: #2F4550;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    clear: both;
+    float: none;
+    width: 20%;
+    height: 100%;
+}
+
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
@@ -135,6 +149,6 @@ border-radius: 15px;
 }
 
 .showcase{
-    width: 800px;
+    width: 400px;
 
 }
